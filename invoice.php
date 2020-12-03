@@ -90,22 +90,20 @@
         <div class="col-sm-4 invoice-col">
           From
           <address>
-            <strong>Admin, Inc.</strong><br>
-            795 Folsom Ave, Suite 600<br>
-            San Francisco, CA 94107<br>
-            Phone: (804) 123-5432<br>
-            Email: info@almasaeedstudio.com
+            <strong>{{ companyName }}</strong><br>
+            {{ companyAddress }}<br>
+            Phone: {{ companyPhone }} <br>
+            Email: {{ companyEmail }}
           </address>
         </div>
         <!-- /.col -->
         <div class="col-sm-4 invoice-col">
           To
           <address>
-            <strong>John Doe</strong><br>
-            795 Folsom Ave, Suite 600<br>
-            San Francisco, CA 94107<br>
-            Phone: (555) 539-1037<br>
-            Email: john.doe@example.com
+            <strong>{{ customerName }}</strong><br>
+            {{ customerAddress }}<br>
+            Phone: {{ customerPhone }} <br>
+            Email: {{ customerEmail }}
           </address>
         </div>
         <!-- /.col -->
