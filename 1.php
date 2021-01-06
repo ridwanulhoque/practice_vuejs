@@ -16,6 +16,9 @@
             el: '#app',
             data: {
                 title: 'Hello World!'
+            },
+            methods: {
+            
             }
         });
     </script>
